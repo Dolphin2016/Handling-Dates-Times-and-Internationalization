@@ -108,3 +108,29 @@ WriteLine("Is Christmas daylight saving time? {0}",
 WriteLine("Is July 4th daylight saving time? {0}",
     arg0: independenceDay.IsDaylightSavingTime());
 
+WriteLine();
+WriteLine();
+
+SectionTitle("Localizing the DayOfWeek enum");
+
+CultureInfo previousCulture = Thread.CurrentThread.CurrentCulture;
+
+// explicitly set culture to Danish (Denmark)
+Thread.CurrentThread.CurrentCulture =
+    CultureInfo.GetCultureInfo("da-DK");
+
+WriteLine("Culture: {0}, DayOfWeek: {1}",
+    Thread.CurrentThread.CurrentCulture.NativeName,
+    DateTime.Now.DayOfWeek);
+
+WriteLine("Culture: {0}, DayOfWeek: {1:dddd}",
+    Thread.CurrentThread.CurrentCulture.NativeName,
+    DateTime.Now);
+
+WriteLine("Culture: {0}, DayOfWeek: {1}",
+    Thread.CurrentThread.CurrentCulture.NativeName,
+    DateTimeFormatInfo.CurrentInfo.GetDayName(DateTime.Now.DayOfWeek));
+
+Thread.CurrentThread.CurrentCulture = previousCulture; 
+
+
