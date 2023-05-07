@@ -1,4 +1,6 @@
-﻿SectionTitle("Specifying date and time values.");
+﻿using System.Globalization;
+
+SectionTitle("Specifying date and time values.");
 
 WriteLine($"DateTime.MinValue:  {DateTime.MinValue}");
 WriteLine($"DateTime.MaxValue:  {DateTime.MaxValue}");
@@ -64,3 +66,45 @@ preciseTime = DateTime.UtcNow;
 // Nanosecond value will be 0 to 900 in 100 nanosecond increments.
 WriteLine("Millisecond: {0}, Microsecond: {1}, Nanosecond: {2}",
     preciseTime.Millisecond, preciseTime.Microsecond, preciseTime.Nanosecond);
+
+WriteLine();
+WriteLine();
+
+SectionTitle("Globalization with dates and times");
+
+// same as Thread.CurrentThread.CurrentCulture
+WriteLine($"Current culture is: {CultureInfo.CurrentCulture.Name}");
+
+string textDate = "4 July 2024";
+DateTime independenceDay = DateTime.Parse(textDate);
+
+WriteLine($"Text: {textDate}, DateTime: {independenceDay:d MMMM}");
+
+textDate = "7/4/2024";
+independenceDay = DateTime.Parse(textDate);
+
+WriteLine($"Text: {textDate}, DateTime: {independenceDay:d MMMM}");
+
+independenceDay = DateTime.Parse(textDate,
+    provider: CultureInfo.GetCultureInfo("en-GB"));
+
+WriteLine($"Text: {textDate}, DateTime: {independenceDay:d MMMM}");
+
+WriteLine();
+WriteLine();
+
+SectionTitle("Leap year, February days");
+
+for (int year = 2022; year <= 2028;  year++)
+{
+    Write($"{year} is a leap year: {DateTime.IsLeapYear(year)}. ");
+    WriteLine("There are {0} days in February {1}.",
+        arg0: DateTime.DaysInMonth(year: year, month: 2), arg1: year);
+}
+
+WriteLine("Is Christmas daylight saving time? {0}",
+    arg0: xmas.IsDaylightSavingTime());
+
+WriteLine("Is July 4th daylight saving time? {0}",
+    arg0: independenceDay.IsDaylightSavingTime());
+
