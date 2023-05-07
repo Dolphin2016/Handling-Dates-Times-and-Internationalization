@@ -131,6 +131,18 @@ WriteLine("Culture: {0}, DayOfWeek: {1}",
     Thread.CurrentThread.CurrentCulture.NativeName,
     DateTimeFormatInfo.CurrentInfo.GetDayName(DateTime.Now.DayOfWeek));
 
-Thread.CurrentThread.CurrentCulture = previousCulture; 
+Thread.CurrentThread.CurrentCulture = previousCulture;
 
+WriteLine();
+WriteLine();
 
+SectionTitle("Working with only a Date or a Time");
+
+DateOnly coronation = new(year: 2023, month: 5, day: 6);
+WriteLine($"The King's Coronation is on {coronation.ToLongDateString()}.");
+
+TimeOnly starts = new(hour: 11, minute: 30);
+WriteLine($"The King's Coronation starts at {starts}.");
+
+DateTime calendarEntry = coronation.ToDateTime(starts);
+WriteLine($"Add to your calendar: {calendarEntry}.");
