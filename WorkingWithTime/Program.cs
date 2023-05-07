@@ -45,3 +45,22 @@ WriteLine($"Kids wake up: {kidsWakeUp}");
 
 WriteLine("The kids woke me up at {0}",
     arg0: kidsWakeUp.ToShortTimeString());
+
+WriteLine();
+WriteLine();
+
+SectionTitle("Milli-, micro-, and nanoseconds");
+
+DateTime preciseTime = new(
+    year: 2022, month: 11, day: 8,
+    hour: 12, minute: 0, second: 0,
+    millisecond: 6, microsecond: 999);
+
+WriteLine("Millisecond: {0}, Microsecond: {1}, Nanosecond: {2}",
+    preciseTime.Millisecond, preciseTime.Microsecond, preciseTime.Nanosecond);
+
+preciseTime = DateTime.UtcNow;
+
+// Nanosecond value will be 0 to 900 in 100 nanosecond increments.
+WriteLine("Millisecond: {0}, Microsecond: {1}, Nanosecond: {2}",
+    preciseTime.Millisecond, preciseTime.Microsecond, preciseTime.Nanosecond);
