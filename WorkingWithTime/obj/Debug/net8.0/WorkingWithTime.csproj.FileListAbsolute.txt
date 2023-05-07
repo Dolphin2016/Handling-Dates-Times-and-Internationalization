@@ -1,0 +1,15 @@
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\bin\Debug\net8.0\WorkingWithTime.exe
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\bin\Debug\net8.0\WorkingWithTime.deps.json
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\bin\Debug\net8.0\WorkingWithTime.runtimeconfig.json
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\bin\Debug\net8.0\WorkingWithTime.dll
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\bin\Debug\net8.0\WorkingWithTime.pdb
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\obj\Debug\net8.0\WorkingWithTime.csproj.AssemblyReference.cache
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\obj\Debug\net8.0\WorkingWithTime.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\obj\Debug\net8.0\WorkingWithTime.AssemblyInfoInputs.cache
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\obj\Debug\net8.0\WorkingWithTime.AssemblyInfo.cs
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\obj\Debug\net8.0\WorkingWithTime.csproj.CoreCompileInputs.cache
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\obj\Debug\net8.0\WorkingWithTime.dll
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\obj\Debug\net8.0\refint\WorkingWithTime.dll
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\obj\Debug\net8.0\WorkingWithTime.pdb
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\obj\Debug\net8.0\WorkingWithTime.genruntimeconfig.cache
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithTime\obj\Debug\net8.0\ref\WorkingWithTime.dll
