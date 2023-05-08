@@ -1,0 +1,15 @@
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\bin\Debug\net8.0\WorkingWithCultures.exe
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\bin\Debug\net8.0\WorkingWithCultures.deps.json
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\bin\Debug\net8.0\WorkingWithCultures.runtimeconfig.json
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\bin\Debug\net8.0\WorkingWithCultures.dll
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\bin\Debug\net8.0\WorkingWithCultures.pdb
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.csproj.AssemblyReference.cache
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.AssemblyInfoInputs.cache
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.AssemblyInfo.cs
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.csproj.CoreCompileInputs.cache
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.dll
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\obj\Debug\net8.0\refint\WorkingWithCultures.dll
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.pdb
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.genruntimeconfig.cache
+D:\PROJECTS\C_SHARP_PROJECTS\APPS AND SERVICES .NET 7\Chapter07\WorkingWithCultures\obj\Debug\net8.0\ref\WorkingWithCultures.dll
